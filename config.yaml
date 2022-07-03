@@ -1,4 +1,4 @@
-# baseUrl: https://kunniii.github.io/
+baseUrl: https://kunniii.github.io/
 languageCode: en-us
 theme: stack
 paginate: 5
@@ -135,10 +135,6 @@ params:
     #         id:
     widgets:
         homepage:
-            - type: search
-            - type: archives
-              params:
-                  limit: 5
             - type: categories
               params:
                   limit: 10
