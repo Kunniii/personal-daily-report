@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "$1" ]
+then
+    echo "Need file name"
+    exit 1;
+else
+
+hugo new "./content/posts/$1"
+code "./content/posts/$1"
+
+fi
