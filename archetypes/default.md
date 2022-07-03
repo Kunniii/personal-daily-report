@@ -1,5 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "Daily Report {{ replace .Name "-" " " | title }}"
+slug: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 draft: false
 image: "img/default_1.jpeg"
