@@ -1,8 +1,8 @@
-baseurl: https://kunniii.github.io/personal-daily-report
+baseUrl: /
 languageCode: en-us
 theme: stack
 paginate: 5
-title: Example Site
+title: Kunniii's Daily Report
 
 languages:
     en:
@@ -22,31 +22,31 @@ DefaultContentLanguage: en
 hasCJKLanguage: false
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    posts: posts/:slug/
+    pages: /:slug/
 
 params:
     mainSections:
-        - post
+        - posts
     featuredImageField: image
     rssFullContent: true
     favicon:
 
     footer:
-        since: 2020
-        customText:
+        since: 2021
+        customText: Kunniii.github.io/personal-daily-report
 
     dateFormat:
         published: Jan 02, 2006
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🎯
+        subtitle: Feeling motivated!! 🔥🔥🔥
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: /img/user.jpeg
 
     article:
         math: false
@@ -56,83 +56,83 @@ params:
             enabled: true
             default: Licensed under CC BY-NC-SA 4.0
 
-    comments:
-        enabled: true
-        provider: disqus
+    # comments:
+    #     enabled: true
+    #     provider: disqus
 
-        disqusjs:
-            shortname:
-            apiUrl:
-            apiKey:
-            admin:
-            adminLabel:
+    #     disqusjs:
+    #         shortname:
+    #         apiUrl:
+    #         apiKey:
+    #         admin:
+    #         adminLabel:
 
-        utterances:
-            repo:
-            issueTerm: pathname
-            label:
+    #     utterances:
+    #         repo:
+    #         issueTerm: pathname
+    #         label:
 
-        remark42:
-            host:
-            site:
-            locale:
+    #     remark42:
+    #         host:
+    #         site:
+    #         locale:
 
-        vssue:
-            platform:
-            owner:
-            repo:
-            clientId:
-            clientSecret:
-            autoCreateIssue: false
+    #     vssue:
+    #         platform:
+    #         owner:
+    #         repo:
+    #         clientId:
+    #         clientSecret:
+    #         autoCreateIssue: false
 
-        # Waline client configuration see: https://waline.js.org/en/reference/component.html
-        waline:
-            serverURL:
-            lang:
-            pageview:
-            emoji:
-                - https://unpkg.com/@waline/emojis@1.0.1/weibo
-            requiredMeta:
-                - name
-                - email
-                - url
-            locale:
-                admin: Admin
-                placeholder:
+    #     # Waline client configuration see: https://waline.js.org/en/reference/component.html
+    #     waline:
+    #         serverURL:
+    #         lang:
+    #         pageview:
+    #         emoji:
+    #             - https://unpkg.com/@waline/emojis@1.0.1/weibo
+    #         requiredMeta:
+    #             - name
+    #             - email
+    #             - url
+    #         locale:
+    #             admin: Admin
+    #             placeholder:
 
-        twikoo:
-            envId:
-            region:
-            path:
-            lang:
+    #     twikoo:
+    #         envId:
+    #         region:
+    #         path:
+    #         lang:
 
-        # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
-        cactus:
-            defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
-            serverName: "cactus.chat"
-            siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
+    #     # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
+    #     cactus:
+    #         defaultHomeserverUrl: "https://matrix.cactus.chat:8448"
+    #         serverName: "cactus.chat"
+    #         siteName: "" # You must insert a unique identifier here matching the one you registered (See https://cactus.chat/docs/getting-started/quick-start/#register-your-site)
 
-        giscus:
-            repo:
-            repoID:
-            category:
-            categoryID:
-            mapping:
-            lightTheme:
-            darkTheme:
-            reactionsEnabled: 1
-            emitMetadata: 0
+    #     giscus:
+    #         repo:
+    #         repoID:
+    #         category:
+    #         categoryID:
+    #         mapping:
+    #         lightTheme:
+    #         darkTheme:
+    #         reactionsEnabled: 1
+    #         emitMetadata: 0
 
-        gitalk:
-            owner:
-            admin:
-            repo:
-            clientID:
-            clientSecret:
+    #     gitalk:
+    #         owner:
+    #         admin:
+    #         repo:
+    #         clientID:
+    #         clientSecret:
 
-        cusdis:
-            host:
-            id:
+    #     cusdis:
+    #         host:
+    #         id:
     widgets:
         homepage:
             - type: search
@@ -148,19 +148,11 @@ params:
         page:
             - type: toc
 
-    opengraph:
-        twitter:
-            # Your Twitter username
-            site:
-
-            # Available values: summary, summary_large_image
-            card: summary_large_image
-
     defaultImage:
         opengraph:
-            enabled: false
-            local: false
-            src:
+            enabled: true
+            local: true
+            src: /img/default_1.jpeg
 
     colorScheme:
         # Display toggle
@@ -179,20 +171,42 @@ params:
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu.html
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
-    main: []
+    main:
+        - name: Home
+          weight: -10
+          url: /
+          params:
+              icon: home
+
+        - name: About
+          url: /about/
+          weight: -9
+          params:
+              icon: user
+
+        - name: Search
+          weight: -8
+          params:
+              icon: search
 
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/Kunniii
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: link
+          name: Other Site
+          url: https://codechovui.github.io
           params:
-              icon: brand-twitter
+              icon: earth
+
+        - identifier: facebook
+          name: Other Site
+          url: https://fb.com/Nguyen.PhiTruong.5801
+          params:
+              icon: brand-facebook
 
 related:
     includeNewer: true
@@ -221,4 +235,4 @@ markup:
         lineNoStart: 1
         lineNos: true
         lineNumbersInTable: true
-        tabWidth: 4 
+        tabWidth: 4
