@@ -1,4 +1,4 @@
-baseUrl: /
+baseUrl: personal-daily-report
 languageCode: en-us
 theme: stack
 paginate: 5
@@ -172,22 +172,17 @@ params:
 ### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
 menu:
     main:
-        - name: Home
-          weight: -10
-          url: /
-          params:
-              icon: home
+      - name: Home
+        weight: -10
+        url: /
+        params:
+            icon: home
 
-        - name: About
-          url: /about/
-          weight: -9
-          params:
-              icon: user
-
-        - name: Search
-          weight: -8
-          params:
-              icon: search
+      - name: About
+        url: /about/
+        weight: -9
+        params:
+            icon: user
 
     social:
         - identifier: github
