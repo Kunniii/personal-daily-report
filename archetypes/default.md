@@ -11,4 +11,8 @@ categories:
   - Daily Report
 ---
 
-## {{ replace .Name "-" " " | title }}
+## Morning
+
+## Afternoon
+
+## Night
