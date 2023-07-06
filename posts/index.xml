@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Personal Daily Report</title><link>https://kunniii.github.io/personal-daily-report/posts/</link><description>Recent content in Posts on Personal Daily Report</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 24 Jul 2022 23:16:07 +0700</lastBuildDate><atom:link href="https://kunniii.github.io/personal-daily-report/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Report 0x03</title><link>https://kunniii.github.io/personal-daily-report/posts/0x03/</link><pubDate>Sun, 24 Jul 2022 23:16:07 +0700</pubDate><guid>https://kunniii.github.io/personal-daily-report/posts/0x03/</guid><description>&lt;img src="https://kunniii.github.io/personal-daily-report/img/default_1.jpeg" alt="Featured image of post Daily Report 0x03" />&lt;h2 id="morning">Morning&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Personal Daily Report</title><link>https://kunniii.github.io/personal-daily-report/posts/</link><description>Recent content in Posts on Personal Daily Report</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 06 Jul 2023 10:07:30 +0700</lastBuildDate><atom:link href="https://kunniii.github.io/personal-daily-report/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Daily Report 0x04</title><link>https://kunniii.github.io/personal-daily-report/posts/0x04/</link><pubDate>Thu, 06 Jul 2023 10:07:30 +0700</pubDate><guid>https://kunniii.github.io/personal-daily-report/posts/0x04/</guid><description>&lt;img src="https://kunniii.github.io/personal-daily-report/img/Watermelon.jpeg" alt="Featured image of post Daily Report 0x04" />&lt;h2 id="morning">Morning&lt;/h2>
+&lt;p>Wake up at 6AM, then hang out and coffee with friends.&lt;/p>
+&lt;p>Head back at 8AM, and have breakfast.&lt;/p>
+&lt;p>Check out some git repo, having some ideas to work with Astro and CodeChoVui blog.&lt;/p>
+&lt;p>Go out, buy, and cook something for lunch.&lt;/p>
+&lt;p>This afternoon should be about the Thesis. I will need to config TheHive and Cortex, and integrate them with MISP. Currently, TheHive is having some issues connecting with Cortex.&lt;/p>
+&lt;p>The document is unclear for running TheHive in Docker. I hate it when the document is wrong and no responsibility to update it.&lt;/p>
+&lt;p>Some remaining tasks are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Investigate why TheHive is unable to connect to Cortex even the configs are OK.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Update Shuffle workflow that for every observable added to TheHive, it will auto run the Cortex Analyzer and collect the report.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Update Shuffle workflow that will assign each person with each task created automatically when adding observables.&lt;/li>
+&lt;/ul>
+&lt;h2 id="afternoon">Afternoon&lt;/h2>
+&lt;h2 id="night">Night&lt;/h2></description></item><item><title>Daily Report 0x03</title><link>https://kunniii.github.io/personal-daily-report/posts/0x03/</link><pubDate>Sun, 24 Jul 2022 23:16:07 +0700</pubDate><guid>https://kunniii.github.io/personal-daily-report/posts/0x03/</guid><description>&lt;img src="https://kunniii.github.io/personal-daily-report/img/default_1.jpeg" alt="Featured image of post Daily Report 0x03" />&lt;h2 id="morning">Morning&lt;/h2>
 &lt;p>Wake up late (again), do nothing until 3pm&lt;/p>
 &lt;h2 id="afternoon">Afternoon&lt;/h2>
 &lt;p>I am making a webhook python, which is very simple by sending a POST request to Discord api.&lt;/p>
