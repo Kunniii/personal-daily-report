@@ -10,6 +10,8 @@
 &lt;li>&lt;input disabled="" type="checkbox"> Investigate why TheHive is unable to connect to Cortex even the configs are OK.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Update Shuffle workflow that for every observable added to TheHive, it will auto run the Cortex Analyzer and collect the report.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Update Shuffle workflow that will assign each person with each task created automatically when adding observables.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Learn how to work with Ansible in Shuffle&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Itegrate MISP with current SOAR&lt;/li>
 &lt;/ul>
 &lt;h2 id="afternoon">Afternoon&lt;/h2>
 &lt;h2 id="night">Night&lt;/h2></description></item><item><title>Daily Report 0x03</title><link>https://kunniii.github.io/personal-daily-report/posts/0x03/</link><pubDate>Sun, 24 Jul 2022 23:16:07 +0700</pubDate><guid>https://kunniii.github.io/personal-daily-report/posts/0x03/</guid><description>&lt;img src="https://kunniii.github.io/personal-daily-report/img/default_1.jpeg" alt="Featured image of post Daily Report 0x03" />&lt;h2 id="morning">Morning&lt;/h2>
